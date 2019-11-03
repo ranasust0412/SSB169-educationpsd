@@ -1,0 +1,154 @@
+@font-face{
+	src:url(../fonts/Helvetica-Neue-Bold.ttf);
+	font-family: Helvetica-Neue-Bold;
+}
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Dosis', sans-serif;*/
+/*font-family: 'Sniglet', cursive;*/
+
+
+
+
+body{
+	font-family: 'Dosis', sans-serif;
+	background-image: url(../images/backimg.png);
+}
+
+
+/*Header Start*/
+
+header{
+	background-color: #ffd338;
+	padding: 0 auto;
+   
+}
+.logo{
+	
+}
+.menu ul {
+
+}
+.menu ul li{
+
+}
+.menu ul li a{
+	font-weight: 700;
+    font-size: 18px;
+    color: #ffffff !important;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 0 15px !important;
+}
+.menu ul li:hover a{
+	background-color: #f05c5c !important;
+	border-radius: 20px;
+}
+.btn-custom{
+	color: white;
+
+}
+.btn-custom:focus{
+	outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(232, 18, 126, 0.25);
+}
+
+.btn-custom:hover{
+	color: #f05c5c;
+    text-decoration: none;
+
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/bg.png);
+	/*background-position: center;*/
+	background-repeat: no-repeat;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   	background-size: cover;
+}
+.banner-text{}
+.banner-text h1{
+	font-weight: 700;
+	font-size: 40px;
+	color: #1ec0ff;
+	margin-top: 200px;
+	margin-bottom: 400px;
+}
+.scroll{}
+.scroll p{}
+.scroll i{}
+/*banner end*/
+
+
+/*kid start*/
+.kid1{
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+}
+.common{
+	margin-bottom: 50px;
+
+}
+.c-h1{
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #333333;
+
+}
+.c-hr{
+    width: 246px;
+    border: 0;
+    border-top: 5px dashed red;
+}
+
+.k-hr{
+    width: 100px;
+    border: 0;
+    border-top: 4px dashed red;
+    text-align: left;
+}
+
+.kid-text{ 
+ }
+.kid-text h2{
+
+}
+.kid-text hr{
+
+
+}
+.kid-text p{
+
+}
+.kid-img img{
+border-radius: 20px;
+
+}
+
+/*education start*/
+.education{
+
+
+background-image: url(../images/educationbg.jpg);
+/*background-position: center;*/
+	background-repeat: no-repeat;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   	background-size: cover;
+}
+.edu-img{ 
+margin-left: 130px;
+margin-bottom: 100px;
+ }
+.edu-img img{
+border-radius: 50% !important;
+}
+.edu-img p{
+	margin-left: 15px;
+	
+}
